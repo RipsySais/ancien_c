@@ -1,2 +1,2 @@
-include <stdio.h>
-{puts("Programming is like building a multilingual puzzle\n");}
+gcc main.c
+{puts("Programming is like building a multilingual puzzle\n");return 0;}
