@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - nbr positif ou negatif
+ * main - nbr positif ou negative
  * Return: 0 (success)
  */
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negatif\n", n);
+		printf("%d is negative\n", n);
 	}
 	return (0);
 }
