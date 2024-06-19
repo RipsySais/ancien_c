@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - nbr positif ou negatif
  * Return: 0 (success)
@@ -25,5 +24,7 @@ int main(void)
 	else
 	{
 		printf("le numero est de zero \n");
-		return (0);
 	}
+
+	return (0);
+}
