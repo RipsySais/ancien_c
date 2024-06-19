@@ -24,4 +24,5 @@ int main(void)
 	{
 		printf("%d is negatif\n", n);
 	}
+	return (0);
 }
