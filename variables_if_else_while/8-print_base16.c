@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - imprimer tout les nombres 16 en miniscule suivi d'un ligne
- *
  * Return: 0
  */
 int main(void)
