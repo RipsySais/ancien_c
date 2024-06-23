@@ -12,8 +12,8 @@ int main(void)
 		for (nombre = 0; nombre < 10; nombre++)
 			putchar((nombre % 10) + '0');
 
-		for (seize = 0; seize < 10; seize++)
-			putchar((seize % 10) + '0');
+		for (seize = 'a'; seize <= 'f'; seize++)
+			putchar(seize);
 	}
 	putchar('\n');
 	return (0);
