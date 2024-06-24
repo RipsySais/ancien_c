@@ -6,14 +6,12 @@
  * Return: void
  */
 void print_numbers(void)
-
 {
-	char c;
+	int number = '0';
 
-	for (c = 0; c <= '9'; c++)
+	while (number <= '9')
 	{
-		putchar(c);
+		_putchar(number++);
 	}
-
-	putchar('\n');
+	_putchar ('\n');
 }
