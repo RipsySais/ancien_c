@@ -1,17 +1,16 @@
 #include "main.h"
-#include <stdio.h>
-/**
- * main - Verification des caractères majuscule
- * Return: Always 0
- */
-int main(void)
-{
-	int _isupper(int c);
-	
-	{
-		if ((c >= 'A') && (c <= 'z'))
-			return (1);
+#include <ctype.h>
 
-	}
-	return (0);
-}	
+/**
+ * _isupper - Verification des caractères majuscule
+ * Return: 1 si c est en majuscule, 0 si autre
+ * @c: ça c'est le caractère a vérifier
+ */
+
+int _isupper(int c)
+{
+		if ((c >= 'A') && (c <= 'Z'))
+			return (1);
+		else
+			return (0);
+}
