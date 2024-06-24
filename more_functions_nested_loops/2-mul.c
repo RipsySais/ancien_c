@@ -6,7 +6,7 @@
  * @b : deuxième number
  * Return: retoune les entiers
  */
-int int mul(int a, int b)
+int mul(int a, int b)
 
 {
 	return (a * b);
