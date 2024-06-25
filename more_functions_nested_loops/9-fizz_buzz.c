@@ -3,7 +3,7 @@
  * main - fizzbuzz
  * return: Always
  */
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -31,6 +31,5 @@ void fizz_buzz(void)
 		}
 		printf("\n");
 	}
-	fizz_buzz();
 	return (0);
 }
