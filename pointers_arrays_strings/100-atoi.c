@@ -23,6 +23,11 @@ int _atoi(char *s)
 		}
 		if (s[i] >= '0' && s[i] <= '9')
 		{
+			if (result == 214748364 && s[i] - '0' > 7)
+			{
+				result = -214748364;
+				return (result);
+			}
 			rom = 1;
 
 			result = result * 10 + (s[i] - '0');
