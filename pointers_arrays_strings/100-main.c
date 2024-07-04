@@ -3,7 +3,7 @@
 
 /**
  * main - check the code
- *
+ * -fsanitize=signed-integer-overflow
  * Return: Always 0.
  */
 int main(void)

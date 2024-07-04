@@ -1,12 +1,10 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h>
 /**
  * _atoi - une fonction qui convertit une chaîne en entier
  * @s: function that convert a string
- * return: 0
+ * Return: 0 or sign * result
  */
-_atoi(char *s)
+int _atoi(char *s)
 {
 	int i = 0;
 	int result = 0;
