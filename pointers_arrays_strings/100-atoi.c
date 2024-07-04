@@ -25,7 +25,7 @@ int _atoi(char *s)
 		{
 			if (result == 214748364 && s[i] - '0' > 7)
 			{
-				result = -214748364;
+				result = -2147483648;
 				return (result);
 			}
 			rom = 1;
