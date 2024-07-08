@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stddef.h>
 /**
- * _strchr: une fonction qui localise un caractère dans une chaîne
+ * _strchr - une fonction qui localise un caractère dans une chaîne
  * @s: pointeur
  * @c: pointeur
  * Return: 0
