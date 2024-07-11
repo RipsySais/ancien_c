@@ -1,14 +1,17 @@
 #include <stdio.h>
 /**
- * main - un programme qui imprime le nombre d’arguments
+ * main - un programme qui imprime tous les arguments
  * @argc: variable
  * @argv: pointeur
  * Return: 0
  */
 int main(int argc, char **argv)
 {
-	(void)**argv;
+	int i;
 
-	printf("%d\n", argc - 1);
+	for (i = 0; i < argc; i++)
+	{
+		printf("%s\n", argv[i]);
+	}
 	return (0);
 }
