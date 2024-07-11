@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _puts_recursion -  imprime une chaîne, suivie d'une nouvelle ligne
  * @s: pointeur
