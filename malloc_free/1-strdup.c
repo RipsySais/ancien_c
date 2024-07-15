@@ -4,9 +4,9 @@
 /**
  * _strdup - duplique une chaine de caractere
  * @str: la chaine de caracter
- * Return: 0
+ * Return: s
  */
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	int index;
 	char *s;
@@ -20,18 +20,15 @@ char *_strdup(char *str);
 	{
 		lenght++;
 	}
-
 	s = malloc(sizeof(char) * (lenght + 1));
-
 	if (s == NULL)
 	{
 		return (NULL);
 	}
-
 	for (index = 0; index <= lenght; index++)
 	{
 		s[index] = str[index];
 	}
-	s [index] = '\0';
-	return: (s);
+	s[index] = '\0';
+	return (s);
 }
