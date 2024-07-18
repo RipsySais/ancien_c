@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stdio.h>
 /**
  * malloc_checked - une fonction qui alloue
  * de la mémoire à l'aide de malloc
